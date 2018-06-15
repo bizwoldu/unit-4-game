@@ -1,0 +1,84 @@
+
+
+
+
+body {
+
+background-image: url("../images/space.jpg");
+background-size: cover;
+
+}
+
+.crystals{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.crystal{
+
+    border:1px solid black;
+    height:200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white (0,0,0,0.5);
+    transition: box-shadow 0.5s;
+     
+
+}
+
+.crystal:hover{
+
+    box-shadow: 15px 15px 15px rgba(255, 255, 255, 0.5);
+    transform: translate(5px,40px);
+    cursor: pointer;
+    transition: box-shadow 1s, transform 2s;
+    
+}
+
+img{
+    width: 50px;
+
+
+}
+#win{
+
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(79, 255, 79);
+    text-align: center;
+    font-style: oblique;
+   
+    
+}
+#lost{
+
+    font-style: italic;
+    font-size: 50px;
+    color: darkorange;
+    text-align: center;
+    font-style: oblique;
+     
+    
+    
+
+}
+#previous {
+
+ color: rgb(255, 255, 255);
+ font-size: 45px;
+ font-style: oblique;
+ text-align: center;
+text-shadow: 0 0 20px yellow;
+
+}
+#result{
+
+    color:white;
+    font-size: 45px;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 0 0 20px yellowgreen;
+}
